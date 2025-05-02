@@ -1,0 +1,13 @@
+# requirements.in
+# This file is used to specify the dependencies for the project.
+# Langchain core and specific integrations
+# You can specify the versions you need, or use the latest by not specifying a version.
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-openai # Or other specific LLM integrations you use
+langchain # The main package if you need broader components
+
+
+# PDF processing
+pypdf2
